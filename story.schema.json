@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Користувацька історія",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "epic",
+    "stage",
+    "priority",
+    "release",
+    "statement",
+    "acceptanceCriteria",
+    "dependencies",
+    "change"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^US-[0-9]{2,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "epic": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "stage": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "priority": {
+      "enum": [
+        "P0",
+        "P1"
+      ]
+    },
+    "release": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "statement": {
+      "type": "string",
+      "pattern": "^Як .+"
+    },
+    "acceptanceCriteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      }
+    },
+    "dependencies": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "change": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "before",
+        "summary",
+        "note"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "new",
+            "updated",
+            "kept"
+          ]
+        },
+        "before": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    }
+  }
+}

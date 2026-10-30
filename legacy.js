@@ -1,0 +1,1 @@
+(function(){var p=decodeURIComponent(location.pathname),m=p.match(/\/історії\/(?:us-(\d+)\.html|index\.html)$/i),root=m?p.slice(0,p.lastIndexOf('/історії/'))+'/':p.slice(0,p.lastIndexOf('/')+1);if(!m){var gh=p.match(/^\/[^/]+\//);root=gh?gh[0]:'/';}var route=m&&m[1]?'stories/US-'+m[1].padStart(2,'0'):'stories';location.replace(root+'#/'+route+location.search);})();

@@ -1,6 +1,18 @@
 {
   "source_repository": "shproty-lab/documentation",
   "source_branch": "main",
-  "source_commit": "0e48b7a293c0d3adcc91c9e69b89905f13aec3f5",
-  "html_pages": 45
+  "source_commit": "cb6f5276155ab65dcf209a779f3599e1628a6931",
+  "application": "React HashRouter",
+  "stories": 55,
+  "files": [
+    ".nojekyll",
+    "404.html",
+    "assets/index-C8z3Yjvo.js",
+    "assets/index-CKtV5zmw.css",
+    "catalog.json",
+    "index.html",
+    "legacy.js",
+    "story.schema.json",
+    "історії/index.html"
+  ]
 }
