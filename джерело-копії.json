@@ -1,14 +1,15 @@
 {
   "source_repository": "shproty-lab/documentation",
   "source_branch": "main",
-  "source_commit": "c9fac873152afe8ea7cf600299d1d7a1a49c0392",
+  "source_commit": "bdd4da48a16fb39c1bee6f2e95a6eade784fdd00",
   "application": "React HashRouter",
   "stories": 55,
   "files": [
     ".nojekyll",
     "404.html",
-    "assets/index-B2ckJ9Cq.js",
-    "assets/index-CKtV5zmw.css",
+    "assets/FrontendResearch-BGyJNGwe.js",
+    "assets/index-B8dX_JkF.css",
+    "assets/index-DFP_bp5f.js",
     "catalog.json",
     "index.html",
     "legacy.js",
