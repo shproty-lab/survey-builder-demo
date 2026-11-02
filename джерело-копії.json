@@ -1,7 +1,7 @@
 {
   "source_repository": "shproty-lab/documentation",
   "source_branch": "main",
-  "source_commit": "bdd4da48a16fb39c1bee6f2e95a6eade784fdd00",
+  "source_commit": "56923f6a15c6265d8a10300e09a5ef02f8f62d30",
   "application": "React HashRouter",
   "stories": 55,
   "files": [
@@ -10,6 +10,7 @@
     "assets/FrontendResearch-BGyJNGwe.js",
     "assets/index-B8dX_JkF.css",
     "assets/index-DFP_bp5f.js",
+    "assets/survey-mark-4qePeCXi.svg",
     "catalog.json",
     "index.html",
     "legacy.js",
