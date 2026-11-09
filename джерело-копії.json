@@ -1,7 +1,7 @@
 {
   "source_repository": "shproty-lab/documentation",
   "source_branch": "main",
-  "source_commit": "420c4f2b3b41b002f26d189d03e24fe9ad777f3c",
+  "source_commit": "01426dda43435938b7c1ec413523faa07e31bd3a",
   "application": "React HashRouter",
   "stories": 55,
   "files": [
@@ -22,10 +22,10 @@
     "assets/13-повна-панель-організатора-BF5PcRaO.js",
     "assets/14-повна-панель-адміністратора-ZWyvgsb2.js",
     "assets/15-повні-панелі-порівняння-DkHXXyPa.js",
-    "assets/FrontendResearch-COfwTTrz.js",
-    "assets/frontend-plan-DFl7acLb.js",
+    "assets/FrontendResearch-BUCFr640.js",
+    "assets/frontend-plan-BBhaDj1I.js",
     "assets/index-Cy7u7abV.css",
-    "assets/index-DuIgnEWe.js",
+    "assets/index-wHWkAV6t.js",
     "assets/survey-mark-4qePeCXi.svg",
     "catalog.json",
     "index.html",
